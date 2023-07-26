@@ -1,0 +1,17 @@
+  {
+    "name": "social-network-api-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "no",
+      "start": "node index.js",
+      "seeds": "node utils/seed"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.11.4"
+    }
+  }
