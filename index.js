@@ -9,6 +9,13 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
+mongoose.connect("mongodb://localhost/networkapi",
+  {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+  }
+);
+
 app.listen(PORT);
 
 console.log('Running at Port '+PORT);
