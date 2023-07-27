@@ -30,7 +30,7 @@ router.post('/', (req, res) => {
 
 //update thought by id
 router.put('/:id', (req, res) => {
-    Thought.findOneAndUpdate({ _id: req.params.id }, body, { new: true })
+    Thought.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
         .then((userdata) => {
             if (!userdata) {
                 res.status(404).json({ message: "Thought not found!" });
@@ -60,7 +60,7 @@ router.delete('/:id', (req, res) => {
 router.post('/:thoughtId/reactions', (req, res) => {
     Thought.findOneAndUpdate(
         { _id: req.params.thoughtId },
-        { $addToSet: { reactions: body } },
+        { $addToSet: { reactions: req.body } },
         { new: true }
       )
         .then((dbdata) => {

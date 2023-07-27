@@ -30,7 +30,7 @@ router.post('/', (req, res) => {
 
 //update user by id
 router.put('/:id', (req, res) => {
-    User.findOneAndUpdate({ _id: req.params.id }, body, { new: true })
+    User.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
         .then((userdata) => {
             if (!userdata) {
                 res.status(404).json({ message: "User not found!" });
