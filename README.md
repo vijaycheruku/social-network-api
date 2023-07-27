@@ -13,16 +13,22 @@ Mongoose ODM.
 
 ## Screenshots
 
-Below screenshot shows api routes
-![Project Testcases](./Assets/Screenshot%202023-06-21%20at%204.59.28%20AM.png)
+Below screenshot shows api routes for users
+![User Routes](./Assets/userroutes.jpeg)
+
+Below screenshot shows api routes for thoughts
+![Thought Routes](./Assets/thoughtroutes.jpeg)
+
+Below screenshot shows seed data for db
+![Thought Routes](./Assets/dbdata.jpeg)
 
 Below screenshot shows postman API call
-![Postman](./Assets/Screenshot%202023-06-21%20at%205.06.22%20AM.png)
+![Postman](./Assets/postman.jpeg)
 
 ## Video recording of the project
 
 Video uploaded in below link will display how api calls are made using this project
-[https://drive.google.com/file/d/1HJtaphLLMWPvlPjRoYArIFx5t4UV9uDj/view?usp=drive_link](https://drive.google.com/file/d/1HJtaphLLMWPvlPjRoYArIFx5t4UV9uDj/view?usp=drive_link)
+[hhttps://drive.google.com/file/d/1cpgp-b71KM0RmROVU-NNOGYEZc3OGhax/view?usp=sharing](https://drive.google.com/file/d/1cpgp-b71KM0RmROVU-NNOGYEZc3OGhax/view?usp=sharing)
 
 ## Project Installation
 
